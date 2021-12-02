@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mbox</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ..hrader// -->
+    <header class="header">
+      <!-- .lefr// -->
+      <div class="header__left-block">
+        <img src="icons/mbox.svg" alt="mbox" />
+      </div>
+      <!-- .center// -->
+      <nav class="header__links">
+        <a href="#home" class="header__link header__link_active">Home</a>
+        <a href="#shows" class="header__link">TV Shows</a>
+        <a href="#movies" class="header__link">Movies</a>
+        <a href="#popular" class="header__link">Series</a>
+      </nav>
+      <!-- ...rigth// -->
+      <div class="header__right-block">
+        <div class="header__block">
+          <form>
+            <input type="text" placeholder="Искать здесь..." />
+            <button class="header__right-block__btn" type="submit">
+              <img src="icons/search.svg" alt="search" />
+            </button>
+          </form>
+          <img src="icons/kal.svg" alt="kal" />
+          <img src="icons/man.svg" alt="man" />
+        </div>
+      </div>
+    </header>
+    <!-- ...mbox -->
+    <section id="home" class="mbox">
+      <div class="container">
+        <div class="mbox__watch">
+          <h1 class="mbox__title">Night Watch</h1>
+          <!-- ..// -->
+          <div class="mbox__block">
+            <div class="mbox__year">2021</div>
+            <span>18+</span>
+            <div class="mbox__year">9 Seasons</div>
+            <div class="mbox__years">8.8</div>
+          </div>
+          <!-- ....// -->
+          <h2 class="mbox__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+            Nunc quis et elit lacinia urna.Lorem ipsum dolor sit amet,<br />
+            consectetur adipiscing elit.
+          </h2>
+          <!-- ...// -->
+
+          <div class="mbox__btn">
+            <button class="watch">
+              <img src="icons/play.svg" alt="play" />
+              Watch
+            </button>
+            <button class="btn">More information</button>
+          </div>
+        </div>
+      </div>
+      <hr style="margin: 100px 50px 0 50px; opacity: 0.5" />
+    </section>
+    <!-- ...trending -->
+
+    <section class="trending">
+      <div class="container">
+        <!-- ....// tv -->
+        <div id="shows" class="trending__tv">
+          <h1 class="title">Trending TV Shows ></h1>
+          <!-- ....// -->
+          <div class="trending__wrapper">
+            <!-- ...// -->
+            <div class="trending__block">
+              <!-- ....1/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/leter.svg" alt="leter" />
+              </div>
+              <!-- ....2/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/eMan.svg" alt="eMan" />
+              </div>
+              <!-- ....3/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/dunkirk.svg" alt="dunkirk" />
+              </div>
+              <!-- ....4/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/live.svg" alt="live" />
+              </div>
+              <!-- ....5/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/vanitas.svg" alt="vanitas" />
+              </div>
+              <!-- ....6/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/perfect.svg" alt="perfect" />
+              </div>
+              <!-- ....7// -->
+              <div class="trending__img">
+                <img src="img/tvShows/legal.svg" alt="legal" />
+              </div>
+              <!-- ....8/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/maturing.svg" alt="maturing" />
+              </div>
+              <!-- ....9/ -->
+              <div class="trending__img">
+                <img src="img/tvShows/michael.svg" alt="michael" />
+              </div>
+              <!-- .....//   -->
+              <!-- <div class="trending__tv-next">
+                <img src="icons/next.png" alt="next">
+              </div>
+              <div class="trenfing__tv-prev">
+                <img src="icons/prev.png" alt="prev">
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- ....// movies -->
+        <div id="movies" class="trending__movies">
+          <h1 class="title">Trending Movies ></h1>
+          <!-- ...// -->
+          <div class="trending__wrapper">
+            <!-- ///.. -->
+            <div class="trending__block">
+              <!-- ....1/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/maturing.svg" alt="maturing" />
+              </div>
+              <!-- ....2/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/leap.svg" alt="leap" />
+              </div>
+              <!-- ....3/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/island.svg" alt="island" />
+              </div>
+              <!-- ....4/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/legal.svg" alt="legal" />
+              </div>
+              <!-- ....5/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/interclock.svg" alt="interclock" />
+              </div>
+              <!-- ....6/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/michael.svg" alt="michael" />
+              </div>
+              <!-- ....7/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/eMan.svg" alt="eMan" />
+              </div>
+              <!-- ....8/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/dunkirk.svg" alt="dunkirk" />
+              </div>
+              <!-- ....9/ -->
+              <div class="trending__img">
+                <img src="img/tvMovies/leter.svg" alt="leter" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trending__btn">See more</div>
+      </div>
+    </section>
+    <!-- ...// -->
+    <section class="popular">
+      <div class="container">
+        <!-- .../genres -->
+        <div id="popular" class="popular__genres">
+          <h1 class="title">Popular Genres ></h1>
+          <div class="popular__block">
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/roman.svg" alt="roman" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/drama.svg" alt="drama" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/historical.svg" alt="historical" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/action.svg" alt="action" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/sci.svg" alt="sci" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/horror.svg" alt="horror" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/comedy.svg" alt="comedy" />
+            </div>
+            <!-- blocks// -->
+            <div class="popular__blocks">
+              <img src="img/genres/documentary.svg" alt="documentary" />
+            </div>
+            <!-- blocks// -->
+          </div>
+        </div>
+        <!-- .../channels/ -->
+        <div class="popular__channels">
+          <h1 class="title">Popular Channels ></h1>
+          <div class="popular__card">
+            <img src="img/white.svg" alt="white" />
+            <img src="img/white.svg" alt="white" />
+            <img src="img/white.svg" alt="white" />
+            <img src="img/white.svg" alt="white" />
+            <img src="img/white.svg" alt="white" />
+            <!-- <img src="img/white.svg" alt="white">
+            <img src="img/white.svg" alt="white">
+            <img src="img/white.svg" alt="white"> -->
+          </div>
+        </div>
+        <!-- ...../actor/ -->
+        <div class="popular__actors">
+          <h1 class="title">Popular Actors & Directors ></h1>
+          <div class="popular__item">
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/samantha.svg" alt="samantha" />
+            </div>
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/rhys.svg" alt="rhys" />
+            </div>
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/james.svg" alt="james" />
+            </div>
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/jashua.svg" alt="jashua" />
+            </div>
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/patcick.svg" alt="patcick" />
+            </div>
+            <!-- items/ -->
+            <div class="popular__items">
+              <img src="icons/actor/morgan.svg" alt="morgan" />
+            </div>
+            <div class="popular__items">
+              <img src="icons/actor/rhys.svg" alt="rhys" />
+            </div>
+            <div class="popular__items">
+              <img src="icons/actor/patcick.svg" alt="patcick" />
+            </div>
+          </div>
+        </div>
+        <!-- ....//img -->
+        <div class="popular__2021">
+          <img style="width: 100%" src="img/bigBuck.svg" alt="bigBuck" />
+        </div>
+        <!-- ..../ -->
+        <div class="popular__finish">
+          <!-- <img src="img/bgFinish.svg" alt="bgFinish"> -->
+          <div class="popular__title">
+            Are You New Here ? <br />
+            Don’t wait, Register Now.
+          </div>
+          <button class="popular__btn">Register Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- +++++footer/ -->
+
+    <footer class="finish">
+      <div class="container">
+        <div class="finish__mbox">
+          <div class="finish__left">
+            <img src="icons/mbox.svg" alt="mbox" />
+            <!-- .../ -->
+            <div class="finish__network">
+              <a href="#">
+                <img src="icons/network/facebook.svg" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="icons/network/twitter.svg" alt="twitter" />
+              </a>
+              <a href="#">
+                <img src="icons/network/linkedin.svg" alt="linkedin" />
+              </a>
+              <a href="#">
+                <img src="icons/\/network/instagramm.svg" alt="instagramm"
+              /></a>
+            </div>
+          </div>
+          <!-- ....rhight/ -->
+          <div class="finish__right">
+            <!-- ...1/ -->
+            <div class="finish__block">
+              <a href="#">Voice over and Subtitle. </a>
+              <a href="#">Media Center</a>
+              <a href="#"> Privacy </a>
+              <a href="#"> Contact us</a>
+            </div>
+            <!-- ...2/ -->
+            <div class="finish__block">
+              <a href="#">Voice Description</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Legal Provisions</a>
+            </div>
+            <!-- ...3/ -->
+            <div class="finish__block">
+              <a href="#">Help Center</a>
+              <a href="#"> Job Opportunities</a>
+              <a href="#"> Cookies Preferences</a>
+            </div>
+            <!-- ...4/ -->
+            <div class="finish__block">
+              <a href="#">Gift Cards</a>
+              <a href="#">Terms of Use</a>
+              <a href="#"> Corporate. Informations</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a class="top" title="top">&uarr;</a>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
